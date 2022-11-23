@@ -1,0 +1,3 @@
+/*C3*/SET SCHEMA PUBLIC
+DROP TABLE schedule\u000a
+CREATE TABLE IF NOT EXISTS schedule (\u000a  ID int PRIMARY KEY,\u000a  flightNumber varchar(10) NOT NULL,\u000a  gateNumber INT NOT NULL,\u000a  ETA INT NOT NULL,\u000a  ETD INT NOT NULL,\u000a) 
